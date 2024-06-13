@@ -1,5 +1,7 @@
 # HFS-EXP-TOOL
 
+[简体中文](https://github.com/10cks/hfs-exp-tool/blob/main/README_CN.md) | [English](https://github.com/10cks/hfs-exp-tool/blob/main/README.md)
+
 HTTP File Server multipurpose tool, target version:
 - 	HFS 2.3 beta
 - 	HFS 2.3d
@@ -27,7 +29,7 @@ Individual Detection Url
 .\hfs-exp-tool.exe --detect-url http://127.0.0.1:8003
 ```
 
-Exploitation Of Vulnerability
+Command Execution
 
 ```
 .\hfs-exp-tool.exe --exp http://127.0.0.1:8003 "whoami"
